@@ -1,3 +1,5 @@
+"""Generate the TOC in README."""
+
 import os
 import os.path as op
 import json
@@ -51,6 +53,12 @@ def _notebook_title(path):
     return '{0}.{1}. {2}'.format(a, b, title)
 
 
+def _nbviewer(path):
+    dir = op.split(op.dirname(path))[-1]
+    file = op.basename(path)
+    return "http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/" + dir + '/' + file
+
+
 def _iter_all(root):
     for i, chapter in enumerate(_iter_chapters(root)):
         yield '{0}\n\n'.format(_get_chapter_header(i + 1))
@@ -59,7 +67,7 @@ def _iter_all(root):
             if not title:
                 continue
             if display_link:
-                yield '* [{0}]({1})\n'.format(title, notebook)
+                yield '* [{0}]({1})\n'.format(title, _nbviewer(notebook))
             else:
                 yield '* {0}\n'.format(title)
         yield '\n'
