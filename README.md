@@ -1,4 +1,6 @@
-# Code of the IPython minibook, second edition
+# IPython minibook, second edition
+
+This repository contains all the code examples as IPython notebooks.
 
 ## Table of contents
 
