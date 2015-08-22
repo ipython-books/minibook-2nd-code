@@ -11,7 +11,7 @@ Instructions to create your own subset of the data:
 
 * You now have 24 zip files named `trip_data_1.csv.zip`, ..., `trip_data_12.csv.zip`, `trip_fare_1.csv.zip`, ..., `trip_fare_12.csv.zip` in the `/minibook-2nd-code/chapter2/data` directory.
 
-* Start a notebook server in the current directory (`minibook-2nd-code/chapter2/cleaning/`) with `ipython notebook --profile=minibook`, and open the `subset.ipynb` notebook.
+* Start a notebook server in the current directory (`minibook-2nd-code/chapter2/cleaning/`) with `jupyter notebook`, and open the `subset.ipynb` notebook.
 
 * You can tweak the `step = 200` line at the top of the notebook. Use a lower value to get a larger subset. The proportion of the subset is `1/step` (so 0.5% with step = 200).
 
