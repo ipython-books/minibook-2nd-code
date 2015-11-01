@@ -30,7 +30,7 @@ def _iter_chapters(root):
 
 
 def _iter_notebooks(chapter_path):
-    for file in os.listdir(chapter_path):
+    for file in sorted(os.listdir(chapter_path)):
         if file.endswith('.ipynb'):
             with open(op.join(chapter_path, file), 'r') as f:
                 text = f.read()
