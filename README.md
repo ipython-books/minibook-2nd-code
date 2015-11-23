@@ -25,7 +25,7 @@ This repository contains all the code examples as IPython notebooks.
 * [3.1. A primer to vector computing](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter3/31-primer.ipynb)
 * [3.2. Creating and loading arrays](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter3/32-creating.ipynb)
 * [3.3. Basic array manipulations](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter3/33-basic.ipynb)
-* [3.4. Computing with NumPy arrays](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter3/34-computing.ipynb)
+* [3.4. Computing with NumPy arrays](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter3/34-computing.ipynb) (**Complete sample!**)
 * 3.5. Summary
 
 ### 4. Interactive plotting and Graphical Interfaces
