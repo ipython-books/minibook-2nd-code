@@ -9,7 +9,7 @@ This repository contains all the code examples as IPython notebooks.
 * 1.1. What are Python, IPython, and Jupyter?
 * 1.2. Installing Python with Anaconda
 * 1.3. Introducing the Notebook
-* [1.4. A crash course on Python](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter1/14-python.ipynb)
+* [1.4. A crash course on Python](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter1/14-python.ipynb) (**Complete sample!**)
 * [1.5. Ten Jupyter/IPython essentials](http://nbviewer.ipython.org/github/ipython-books/minibook-2nd-code/blob/master/chapter1/15-ten.ipynb)
 * 1.6. Summary
 
